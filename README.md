@@ -13,7 +13,7 @@ This project provides a Dockerized Nginx web server with ModSecurity (a web appl
 - (Optional) OWASP Juice Shop container running (if you want to test the full setup)
 
 ## Quick Start
-1. Build the Docker image anc create a network:
+1. Build the Docker image and create a network:
    ```bash
    docker build -t nginx-modsecurity .
    docker network create juice-net
